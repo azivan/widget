@@ -6,6 +6,16 @@
     <title>Widget Demo</title>
 </head>
 <body>
-    <script src="https://customerwidget.joinflow.com/tvx-customer-widget-app.js?widgetId=45d1a24e-e1e0-4f47-98f8-57c6227067fa" charset="utf-8" crossorigin="anonymous" type="text/javascript" defer></script>
+    <script type="text/javascript" src="https://azivan.github.io/widget/cention/chat/js/jquery.min.js"></script>
+    <script type="text/javascript">var CentionBaseURL = "https://azivan.github.io/widget";</script>
+    <script src="https://azivan.github.io/widget/cention/chat/js/widget.js" type="text/javascript"></script>
+    <div id="cention-chat-container"></div>
+    <script type="text/javascript">
+        if(typeof CentionChat !== "undefined") {
+	    CentionChat("cention-chat-container", {
+	    areaId : 71
+	});
+}
+</script>
 </body>
 </html>
