@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Widget Demo</title>
-</head>
-<body>
 <script type="text/javascript" src="https://cloud.cention.com/s/telavox-dev/cention/chat/js/jquery.min.js"></script>
 <script type="text/javascript">var CentionBaseURL = "https://cloud.cention.com/s/telavox-dev";</script>
 <script src="https://cloud.cention.com/s/telavox-dev/cention/chat/js/widget.js" type="text/javascript"></script>
@@ -13,30 +11,13 @@
 <script type="text/javascript">
 if(typeof CentionChat !== "undefined") {
 	CentionChat("cention-chat-container", {
-	css: {
-	headerColor: "#7258f7",
-	},
-	ui: {
-	position: "bottomRight",
-	bottomPosition: 0,
-	leftPosition: 0,
-	proactiveDelayTime: 0,
-	proactiveTimeAfterDecline: 0,
-	proactiveRepeatedContact: 0,
-	proactiveTimeout: 0,
-	},
-	hooks: {
-	onChatMaximize: function() {
-		// This function is called when the chat is maximized
-	},
-	skin: modern
-	onChatMinimize: function() {
-		// This function is called when the chat is minimized
-	}
-	},
 	areaId : 71
 	});
 }
 </script>
+</head>
+<body>
+	<h1>Chat test</h1>
+
 </body>
 </html>
